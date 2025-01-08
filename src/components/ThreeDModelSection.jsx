@@ -105,15 +105,16 @@ const Virtual = () => {
       {/* Embedded 3D Model Section */}
       <div className="sketchfab-embed-wrapper w-full h-full mt-4">
         <iframe
-          title="Scandinavian Apartment - Demo scene"
-          frameBorder="0"
-          allowFullScreen
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          src="https://sketchfab.com/models/990ce2d827404c66a975b03ff97a0c03/embed?ui_infos=0&ui_watermark=0&ui_controls=1&autostart=1"
-          className="w-full h-screen"
-        ></iframe>
+  title="Scandinavian Apartment - Demo scene"
+  frameBorder="0"
+  allowFullScreen
+  mozallowfullscreen="true"
+  webkitallowfullscreen="true"
+  allow="autoplay; fullscreen; xr-spatial-tracking"
+  src="https://sketchfab.com/models/990ce2d827404c66a975b03ff97a0c03/embed?ui_infos=0&ui_watermark=0&ui_controls=1&autostart=1&hd=1&max_texture_size=4096&preload=1"
+  className="w-full h-screen"
+></iframe>
+>
       </div>
 
       {/* Scroll Buttons */}
